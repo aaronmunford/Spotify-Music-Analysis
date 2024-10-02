@@ -3,9 +3,11 @@ Enclosed in this folder is all my analysis done on spotify data as well as visua
 
 ## Introduction
 
+## Data Description 
+
 
 ## Exploratory Data Analysis 
 
 
-## Methodolgy
+## Results
 
