@@ -37,11 +37,11 @@ Data was cleaned by removing rows with missing values, and numerical features we
 
 ### 1. Distribution of Song Features
 Most features showed non-normal distributions, with **danceability** being the closest to normal.
-![Distribution of Song Features](images/Song%20Feature%20Distributions.png)
+<img src="images/Song%20Feature%20Distributions.png" alt="Distribution of Song Features" width="500"/>
 
 ### 2. Song Popularity vs. Duration
 There is a weak negative correlation between song duration and popularity, indicating that longer songs are slightly less popular.
-![Song Popularity vs. Duration](images/Song%20Duration%20vs%20Popularity.png)
+<img src="images/Song%20Duration%20vs%20Popularity.png" alt="Song Popularity vs. Duration" width="500"/>
 
 ### 3. Explicit Songs Popularity
 Explicit songs were found to be significantly more popular than non-explicit songs (p-value < 0.05).
@@ -51,7 +51,7 @@ There was no statistically significant difference in popularity between songs in
 
 ### 5. Energy vs. Loudness
 A strong positive correlation was found between energy and loudness, confirming that louder songs tend to have higher energy.
-![Energy vs. Loudness](images/Loudness%20and%20Energy.png)
+<img src="images/Loudness%20and%20Energy.png" alt="Energy vs. Loudness" width="500"/>
 
 ### 6. Best Single Feature for Predicting Popularity
 **Instrumentalness** had the highest correlation with popularity (-0.14), but it is a weak predictor overall.
@@ -61,13 +61,12 @@ Using all 10 features improved the model slightly, with an R-squared of 0.062 an
 
 ### 8. Principal Component Analysis (PCA)
 PCA reduced the dataset to 3 components, explaining 56.51% of the variance.
-![PCA Components](images/Eigenvalue%20PCA.png)
-![Component Breakdown](images/Component%20Breakdown.png)
+<img src="images/Eigenvalue%20PCA.png" alt="PCA Components" width="500"/>
+<img src="images/Component%20Breakdown.png" alt="Component Breakdown" width="500"/>
 
 ### 9. Predicting Key from Valence
 Valence could moderately predict whether a song is in a major or minor key, with an accuracy of 62.4%.
 
 ### 10. Genre Tempo Analysis
 Hardstyle and dubstep had much higher tempos compared to genres like chill or ambient music.
-![BPM descending](images/BPM%20descending.png)
-
+<img src="images/BPM%20descending.png" alt="BPM descending" width="500"/>
