@@ -41,6 +41,7 @@ Most features showed non-normal distributions, with **danceability** being the c
 
 ### 2. Song Popularity vs. Duration
 There is a weak negative correlation between song duration and popularity, indicating that longer songs are slightly less popular.
+
 <img src="images/Song%20Duration%20vs%20Popularity.png" alt="Song Popularity vs. Duration" width="500"/>
 
 ### 3. Explicit Songs Popularity
