@@ -30,11 +30,47 @@ The dataset is available in the data/ folder as spotify52kData.csv.
 * Matplotlib, Seaborn
 * Scikit-learn
 
-## Results:
-#### 1. Song Duration vs. Popularity
-![Song Popularity vs. Duration](images/Song_Duration_vs_Popularity.png)
+## Results and Key Findings
 
-#### 2. Danceability and Energy Analysis
-![Danceability and Energy](images/danceability_vs_energy.png)
+### Data Preparation
+Data was cleaned by removing rows with missing values, and numerical features were standardized. PCA was applied to reduce the dimensionality of the data.
+
+### 1. Distribution of Song Features
+Most features showed non-normal distributions, with **danceability** being the closest to normal.
+![Distribution of Song Features](images/distribution_features.png)
+
+### 2. Song Popularity vs. Duration
+There is a weak negative correlation between song duration and popularity, indicating that longer songs are slightly less popular.
+![Song Popularity vs. Duration](images/popularity_vs_duration.png)
+
+### 3. Explicit Songs Popularity
+Explicit songs were found to be significantly more popular than non-explicit songs (p-value < 0.05).
+![Explicit Songs Popularity](images/explicit_vs_nonexplicit.png)
+
+### 4. Major vs. Minor Key Popularity
+There was no statistically significant difference in popularity between songs in major and minor keys.
+![Major vs Minor Key Popularity](images/major_vs_minor.png)
+
+### 5. Energy vs. Loudness
+A strong positive correlation was found between energy and loudness, confirming that louder songs tend to have higher energy.
+![Energy vs. Loudness](images/energy_vs_loudness.png)
+
+### 6. Best Single Feature for Predicting Popularity
+**Instrumentalness** had the highest correlation with popularity (-0.14), but it is a weak predictor overall.
+![Instrumentalness and Popularity](images/instrumentalness_vs_popularity.png)
+
+### 7. Multifeature Model for Popularity
+Using all 10 features improved the model slightly, with an R-squared of 0.062 and lower prediction error.
+![Multifeature Model](images/multifeature_model.png)
+
+### 8. Principal Component Analysis (PCA)
+PCA reduced the dataset to 3 components, explaining 56.51% of the variance.
+![PCA Components](images/pca_components.png)
+
+### 9. Predicting Key from Valence
+Valence could moderately predict whether a song is in a major or minor key, with an accuracy of 62.4%.
+![Valence and Key Prediction](images/valence_vs_key.png)
+
+### 
 
 
