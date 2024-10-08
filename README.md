@@ -4,8 +4,14 @@
 This project analyzes a dataset of 52,000 Spotify songs to uncover the factors that contribute to song popularity and the unique audio features that define different genres. The analysis includes data preprocessing, regression models, significance tests, and PCA to predict song popularity and classify music by genre.
 
 ## Data Description 
-The dataset contains 52,000 songs with features such as popularity, duration, danceability, energy, key, loudness, etc.
+The dataset used in this project is a collection of 52,000 Spotify songs, each with features like:
 
+**Popularity: Integer from 0 to 100, representing how many times the song was played.
+**Duration: Length of the song in milliseconds.
+**Danceability, Energy, Loudness: Quantitative features from Spotify's API that describe the song's characteristics.
+**Genre: Assigned genre of the song (e.g., "hip-hop", "classical").
+
+The dataset is available in the data/ folder as spotify52kData.csv.
 ## Key Findings:
 - **Song Popularity vs. Duration**: Analyzed the correlation between song duration and popularity. The results show a weak negative correlation, with longer songs tending to be slightly less popular.
 
