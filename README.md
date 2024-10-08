@@ -37,7 +37,7 @@ Data was cleaned by removing rows with missing values, and numerical features we
 
 ### 1. Distribution of Song Features
 Most features showed non-normal distributions, with **danceability** being the closest to normal.
-![Distribution of Song Features](images/distribution_features.png)
+![Distribution of Song Features](images/Song%20Feature%20Distributions.png)
 
 ### 2. Song Popularity vs. Duration
 There is a weak negative correlation between song duration and popularity, indicating that longer songs are slightly less popular.
