@@ -52,6 +52,7 @@ There was no statistically significant difference in popularity between songs in
 
 ### 5. Energy vs. Loudness
 A strong positive correlation was found between energy and loudness, confirming that louder songs tend to have higher energy.
+
 <img src="images/Loudness%20and%20Energy.png" alt="Energy vs. Loudness" width="500"/>
 
 ### 6. Best Single Feature for Predicting Popularity
