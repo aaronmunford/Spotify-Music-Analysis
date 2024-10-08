@@ -41,36 +41,33 @@ Most features showed non-normal distributions, with **danceability** being the c
 
 ### 2. Song Popularity vs. Duration
 There is a weak negative correlation between song duration and popularity, indicating that longer songs are slightly less popular.
-![Song Popularity vs. Duration](images/popularity_vs_duration.png)
+![Song Popularity vs. Duration](images/Song%20Duration%20vs%20Popularity.png)
 
 ### 3. Explicit Songs Popularity
 Explicit songs were found to be significantly more popular than non-explicit songs (p-value < 0.05).
-![Explicit Songs Popularity](images/explicit_vs_nonexplicit.png)
 
 ### 4. Major vs. Minor Key Popularity
 There was no statistically significant difference in popularity between songs in major and minor keys.
-![Major vs Minor Key Popularity](images/major_vs_minor.png)
 
 ### 5. Energy vs. Loudness
 A strong positive correlation was found between energy and loudness, confirming that louder songs tend to have higher energy.
-![Energy vs. Loudness](images/energy_vs_loudness.png)
+![Energy vs. Loudness](images/Loudness%20and%20Energy.png)
 
 ### 6. Best Single Feature for Predicting Popularity
 **Instrumentalness** had the highest correlation with popularity (-0.14), but it is a weak predictor overall.
-![Instrumentalness and Popularity](images/instrumentalness_vs_popularity.png)
 
 ### 7. Multifeature Model for Popularity
 Using all 10 features improved the model slightly, with an R-squared of 0.062 and lower prediction error.
-![Multifeature Model](images/multifeature_model.png)
 
 ### 8. Principal Component Analysis (PCA)
 PCA reduced the dataset to 3 components, explaining 56.51% of the variance.
-![PCA Components](images/pca_components.png)
+![PCA Components](images/Eigenvalue%20PCA.png)
+![Component Breakdown](images/Component%20Breakdown.png)
 
 ### 9. Predicting Key from Valence
 Valence could moderately predict whether a song is in a major or minor key, with an accuracy of 62.4%.
-![Valence and Key Prediction](images/valence_vs_key.png)
 
-### 
-
+### 10. Genre Tempo Analysis
+Hardstyle and dubstep had much higher tempos compared to genres like chill or ambient music.
+![BPM descending](images/BPM%20descending.png)
 
