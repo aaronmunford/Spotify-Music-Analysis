@@ -6,10 +6,10 @@ This project analyzes a dataset of 52,000 Spotify songs to uncover the factors t
 ## Data Description 
 The dataset used in this project is a collection of 52,000 Spotify songs, each with features like:
 
-**Popularity: Integer from 0 to 100, representing how many times the song was played.
-**Duration: Length of the song in milliseconds.
-**Danceability, Energy, Loudness: Quantitative features from Spotify's API that describe the song's characteristics.
-**Genre: Assigned genre of the song (e.g., "hip-hop", "classical").
+- **Popularity: Integer from 0 to 100, representing how many times the song was played.
+- **Duration: Length of the song in milliseconds.
+- **Danceability, Energy, Loudness: Quantitative features from Spotify's API that describe the song's characteristics.
+- **Genre: Assigned genre of the song (e.g., "hip-hop", "classical").
 
 The dataset is available in the data/ folder as spotify52kData.csv.
 ## Key Findings:
