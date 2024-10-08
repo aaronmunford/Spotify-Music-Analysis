@@ -6,11 +6,17 @@ This project analyzes a dataset of 52,000 Spotify songs to uncover the factors t
 ## Data Description 
 The dataset contains 52,000 songs with features such as popularity, duration, danceability, energy, key, loudness, etc.
 
-## Key Features:
-* Predicting song popularity based on audio features.
-* Analyzing explicit vs. non-explicit songs and popularity.
-* Building a logistic regression model to predict major or minor key based on valence.
-* Principal Component Analysis to reduce audio feature dimensions.
+## Key Findings:
+- **Song Popularity vs. Duration**: Analyzed the correlation between song duration and popularity. The results show a weak negative correlation, with longer songs tending to be slightly less popular.
+
+- **Explicit Songs**: Compared the popularity of explicit songs vs. non-explicit songs using a Mann-Whitney U test. Explicit songs were found to be significantly more popular.
+
+- **Major vs. Minor Key Popularity**: Compared the popularity of songs in major and minor keys. The analysis found no statistically significant difference in popularity.
+
+- **Energy vs. Loudness**: Strong positive correlation between energy and loudness, confirming that louder songs tend to have higher energy.
+
+- **Principal Component Analysis (PCA)**: Reduced the dimensionality of the dataset to three principal components, explaining 56% of the variance in the data.
+
 
 ## Technologies:
 * Python
