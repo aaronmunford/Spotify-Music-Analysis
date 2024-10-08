@@ -20,7 +20,7 @@ The dataset contains 52,000 songs with features such as popularity, duration, da
 
 ## Results:
 #### 1. Song Duration vs. Popularity
-![Song Popularity vs. Duration](images/Song Duration vs Popularity.png)
+![Song Popularity vs. Duration](images/Song_Duration_vs_Popularity.png)
 
 #### 2. Danceability and Energy Analysis
 ![Danceability and Energy](images/danceability_vs_energy.png)
